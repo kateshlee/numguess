@@ -14,4 +14,11 @@ guess = input(f'Hi, {user_name}. Guess the number(1-199); ')
 # print to check
 print(user_name, guess)
 
+# check and print correct not
+if guess == answer:
+    print('Congrats!')
+else: 
+    print(f'You are wrong' The answer is {answer}.')
+
+
 
