@@ -9,7 +9,7 @@ print(answer)
 # get user's name, guess
 
 user_name = input('Hello there, What's your name? ')
-guess = input(f'Hi, {user_name}. Guess the number(1-199); ')
+guess = int(input(f'Hi, {user_name}. Guess the number(1-199); '))
 
 # print to check
 print(user_name, guess)
